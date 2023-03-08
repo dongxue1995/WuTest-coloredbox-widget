@@ -1,32 +1,32 @@
 {
   "id": "com.sap.sample.coloredbox",
-  "version": "1.0.0",
-  "name": "Colored Box",
-  "description": "A colored box",
+  "version": "1.0.1",
+  "name": "Wu Test Colored Box",
+  "description": "Wu Test a colored box",
   "newInstancePrefix": "ColoredBox",
-  "icon": "https://www.sample.com/customwidgets/coloredbox/icon.png",
-  "vendor": "SAP",
+  "icon": "https://dongxue1995.github.io/WuTest-coloredbox-widget/WuTesticon.png",
+  "vendor": "WuTest based on SAP",
   "eula": "",
   "license": "",
   "webcomponents": [
     {
       "kind": "main",
       "tag": "com-sap-sample-coloredbox",
-      "url": "https://www.sample.com/customwidgets/coloredbox/coloredbox.js",
+      "url": "https://dongxue1995.github.io/WuTest-coloredbox-widget/WuTestcoloredbox.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "com-sap-sample-coloredbox-styling",
-      "url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_styling.js",
+      "url": "https://dongxue1995.github.io/WuTest-coloredbox-widget/WuTestcoloredbox_styling.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "builder",
       "tag": "com-sap-sample-coloredbox-builder",
-      "url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_builder.js",
+      "url": "https://dongxue1995.github.io/WuTest-coloredbox-widget/WuTestcoloredbox_builder.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
