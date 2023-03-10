@@ -1,5 +1,6 @@
 (function () {
-  let template = document.createElement("template");
+  // The script starts with an immediately invoked function expression (IIFE) that wraps all the code in the script. This is a common practice to prevent variable and function name conflicts with other code on the page.
+  let template = document.createElement("template"); // creates a new HTML 'template' element, the innerHTML property of the template element is set to a string of HTML markup
   template.innerHTML = `
 		<form id="form">
 			<fieldset>
@@ -16,6 +17,7 @@
 	`;
 
   class ColoredBoxStylingPanel extends HTMLElement {
+    // template for JavaScript objects.
     constructor() {
       super();
       this._shadowRoot = this.attachShadow({ mode: "open" });
@@ -48,7 +50,8 @@
   }
 
   customElements.define(
+    // defines a custom HTML element
     "com-sap-sample-coloredbox-styling",
     ColoredBoxStylingPanel
   );
-})();
+})(); // add opening and closing parentheses to invoke the function immediately.
