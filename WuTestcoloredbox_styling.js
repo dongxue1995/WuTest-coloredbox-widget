@@ -51,4 +51,4 @@
     "com-sap-sample-coloredbox-styling",
     ColoredBoxStylingPanel
   );
-});
+})();
