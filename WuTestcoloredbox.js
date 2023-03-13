@@ -25,6 +25,7 @@
     }
 
     onCustomWidgetBeforeUpdate(changedProperties) {
+	    console.log("Changed Properties:", changedProperties);
       this._props = { ...this._props, ...changedProperties };
     }
 
