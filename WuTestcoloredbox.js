@@ -19,6 +19,7 @@
       shadowRoot.appendChild(template.content.cloneNode(true));
       this.addEventListener("click", (event) => {
         var event = new Event("onClick");
+	console.log("event"+event);
         this.dispatchEvent(event);
       });
       this._props = {};
