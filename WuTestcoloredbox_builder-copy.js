@@ -53,6 +53,7 @@
 
     set opacity(newOpacity) {
       this._shadowRoot.getElementById("builder_opacity").value = newOpacity;
+	    console.log("setnewOpacity" + newOpacity);
     }
 
     get opacity() {
