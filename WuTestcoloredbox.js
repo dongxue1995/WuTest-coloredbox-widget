@@ -14,6 +14,7 @@
 
   class ColoredBox extends HTMLElement {
     constructor() {
+	 console.log("constructor fn is triggered");
       super();
       let shadowRoot = this.attachShadow({ mode: "open" });
       shadowRoot.appendChild(template.content.cloneNode(true));
