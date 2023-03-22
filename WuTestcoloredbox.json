@@ -53,11 +53,13 @@
           "type": "string",
           "description": "The new background color"
         }
-      ]
+      ],
+      "body": "this.color = newColor;"
     },
     "getColor": {
       "returnType": "string",
-      "description": "Returns the background color."
+      "description": "Returns the background color.",
+      "body": "return this.color;"
     },
     "setOpacity": {
       "description": "Sets the background opacity.",
@@ -67,11 +69,13 @@
           "type": "number",
           "description": "The new background opacity"
         }
-      ]
+      ],
+      "body": "this.opacity = newOpacity;"
     },
     "getOpacity": {
       "returnType": "number",
-      "description": "Returns the background opacity."
+      "description": "Returns the background opacity.",
+      "body": "return this.opacity;"
     }
   },
   "events": {
